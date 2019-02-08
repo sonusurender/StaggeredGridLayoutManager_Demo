@@ -1,0 +1,29 @@
+
+
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+  >
+    <!--  Two Buttons to Open  different recycler view  -->
+
+    <Button android:text="@string/staggeredgrid" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/staggeredRecyclerViewBtn"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="#000000"/>
+
+    <Button android:text="@string/horizontalrecyclerview" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalRecyclerViewBtn"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+
+
+
+</LinearLayout>
